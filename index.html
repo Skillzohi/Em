@@ -1,10 +1,606 @@
-<!DOCTYPE html>
-<html>
+
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-	<meta charset="utf-8">
-	<title>Em-Portfolio</title>
-</head>
-<body>
+<meta name="viewport"
+ content="width=device-width, initial-scale=1.0,
+                              maximum-scale=1.0,
+                              user-scalable=no">
+ <link href="css/bootstrap.css"
+ rel="stylesheet"/>
+ <style>
+ 	.form-control{width: 50%;}
+ 	.thumb{padding: 60px 10px;
+ 		text-align: center;
+ 		background-color: gray;}
+ 		h1,h2{margin: 30px 0;}
+ 		.container-fluid, .container{margin: 50px auto; height: 200px;}
+ 		.thumb:nth-child(even){background: #f0f;}
+ 		/* .thumb:nth-child(odd){clear: both;} */
+ 		
+ </style>
+ </head>
+ <body>
+
+ 	<div class="alert alert-danger alert-dismissible fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>DANGER!</strong> Your computer might be in danger 
+ 		
+ 	</div>
+ 	<div class="progress">
+  <div class="progress-bar progress-bar-striped"
+    role="progressbar"
+    style="width:70%">70%
+  </div>
+</div>
+<ul class="pagination">
+  <li class="active"
+><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+</ul>
+
+ 	<div class="container">
+
+<button class="btn btn-danger btn-lg btn-block"
+disabled="disable">keep off
+<span class="label"style="color: blue;">***</span></button>
+<h1>HELLO WORLD</h1><br>
+
+<div class="btn-group dropdown">
+	<button class="btn btn-default" type="button">defaulty</button>
+	<button class="btn dropdown-toggle" data-toggle="dropdown"
+	type="btn btn-default" id="dropdown-menu1">Topic
+	<span class="caret"></span>
+	<span class="sr-only">toggle dropdown</span>
+	</button>
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-menu1">
+		<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Java</a></li>
+		<li class="divider"></li>
+		<li><a tabindex="-1" href="#">Bootstrap</a></li>
+		
+	</ul>	
+</div><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div class="row">
+	<div class="col-md-4 col-md-push-8" style="background-color: silver;box-shadow:inset 2px -2px 2px #0ff,inset -2px 2px 2px #0ff; "><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etdolore</p>
+	</div>
+		<div class="col-md-8 col-md-pull-4" style="box-shadow:inset 2px -2px 2px #0ff">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+	</div>
+</div>
+
+ <h1>Im heading one.<small>im heading one small</small></h1>
+ </body>
+ <h2>im heading two.<br><em>this text is within emphasis tag</em></h2>
+ <h3>im heading three<p class="lead"> im heading three im heading three with lead class im heading three im heading three with lead class</p></h3><br>
+ <address>
+ <abbr title="world wide web">www</abbr><br>
+ <abbr title="real simple syndication" class="initialism">RSS</abbr>
+ <h5><strong>im heading five</strong></h5>
+ <h6>im heading six</h6>
+</address>
+
+<blockquote>
+	<p>
+		This is a default blockquote tag.This is a default blockquote tag.This is a default blockquote tag.This is a default blockquote tag.This is a default blockquote tag.
+	</p>
+</blockquote>
+<blockquote>
+	<small>
+		someone famous in
+		<cite title="source title">source title of my book</cite> 
+	</small>
+</blockquote>
+<blockquote class="pull-right">
+	This blockquote is aligned to the right
+	<small>
+		someone famous in
+		<cite title="source title">source title</cite> 
+	</small>
+</blockquote><br><br>
+
+
+ <h1>
+ <p class="text-right"> im right aligned text im heading three with lead class im heading three im heading three with lead class</p>
+</h1>
+<h1>
+ <p class="text-center"> im center aligned text im heading three with lead class im heading three im heading three with lead class</p>
+</h1>
+ <h1>
+ <p class="text-left"> im left aligned text im heading three with lead class im heading three im heading three with lead class</p>
+</h1>
+ <h1>
+ <p class="text-muted"> im muted aligned text im heading three with lead class im heading three im heading three with lead class</p>
+</h1>
+<h1>
+ <p class="text-primary"> im primary class text im heading three with lead class im heading three im heading three with lead class</p>
+</h1>
+<h1>
+ <p class="text-info"> im info class aligned text im heading three with lead class im heading three im heading three with lead class</p>
+</h1>
+<h1>
+ <p class="text-warning"> im warning class text im heading three with lead class im heading three im heading three with lead class</p>
+</h1>
+<h1>
+ <p class="text-danger"> im danger class text im heading three with lead class im heading three im heading three with lead class</p>
+</h1>
+<h1>
+ <p class="text-success"> im success class text im heading three with lead class im heading three im heading three with lead class</p>
+</h1><br><br>
+
+
+<p><code>This&lt;header&gt;tag is an inline tag placed in a &lt;code&gt;tag. To display codes as a standalone block-element, use &lt;pre&gt;
+</code></p>
+<pre>
+&lt;article&gt;
+	&lt;h1&gt;Article heading&lt;/h1&gt;
+&lt;/article&gt;
+	
+</pre>
+<p class="text-center">Basic Table</p>
+
+<div class="container">
+<table class="table table-bordered table-hover table-responsive">
+	<caption class="text-center">Contextual Table Layout</caption>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>City</th>
+			<th>Pincode</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="active">
+			<td>Osaze</td>
+			<td>Benin</td>
+			<td>432688</td>
+		</tr>
+		<tr class="warning">
+			<td>Uvie</td>
+			<td>Warri</td>
+			<td>675439</td>
+		</tr>
+		<tr class="success">
+			<td>Bala</td>
+		    <td>Kano</td>
+		    <td>767654</td>
+		</tr>
+		<tr class="danger">
+			<td>Seun</td>
+		    <td>Lagos</td>
+		    <td>419419</td>
+		</tr>
+
+	</tbody>
+</table>
+</div>
+<form class="form-horizontal" role="form">
+	<legend>Unijos Student Portal </legend>
+<div class="form-group">
+	<label class="control-label" for="name">Name</label>
+	<input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+</div>
+<div class="form-group">
+	<label class="control-label" for="email">Email</label>
+	<input class="form-control"type="text" id="email" placeholder="email@example.com" required>
+</div>
+<div class="form-group">
+	<label class="control-label"for="inputfile">Curriculum vitae</label>
+	<input type="file" id="inputfile">
+	<p class="help-block">kindly input your credentials here</p>
+</div>
+<div class="checkbox">
+	<label>
+		<input type="checkbox">Check me out
+	</label>
+</div>
+<div class="form-group">
+	<label for="name">select color</label>
+	<select class="form-control">
+		<option>blue</option>
+		<option>green</option>
+		<option>red</option>
+		<option>pink</option>
+		<option>lime</option>
+	</select>
+</div>
+<button class="btn btn-primary" type="submit">Submit<span class="glyphicon glyphicon-user"></span>
+</button>
+</form><br><br>
+-->
+<!--addon
+<form>
+	<div class="input-group">
+		<span class="input-group-addon">@</span>
+		<input type="text" class="form-control"placeholder="Twitterhandle">
+		<span class="input-group-addon">.com</span>
+	</div><br><br>
+
+	<div class="input-group">
+		<div class="input-group-btn">
+			<button class="btn btn-default dropdown-toggle" data-toggle=dropdown type="button">Go!
+				<span class="caret"></span>
+			</button>
+			
+			<ul class="dropdown-menu">
+				<li><a href="#">love</a>
+					
+				</li>
+				<li><a href="#">Joy</a></li>
+				<li><a href="#">Peace</a>
+					
+				</li>
+				<li><a href="#">Happiness</a>
+					
+				</li>
+			</ul>
+
+			
+		</div>
+		<input type="text" class="form-control">	
+	</div>		
+	</div>
+	
+</form>
+
+
+
+
+<form class="form-horizontal" role="form">
+	<div class="form-group">
+		<label class="col-sm-2 control-label">email</label>
+		<div class="col-sm-10">
+			<p class="form-control-static">example@email.com</p>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-2 control-label">focused</label>
+		<div class="col-sm-10">
+			<input type="text" value="This is focused" class="form-control">
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-2 control-label" for="inputpassword">Disabled</label>
+		<div class="col-sm-10">
+			<input type="text" id="disabledinput" class="form-control" placeholder="Disabled input here"disabled>
+		</div>
+	</div>
+	<fieldset disabled>
+	<div class="form-group">
+		<label for="disabledtextinput" class="col-sm-2 control-label">Disabled input for fieldset</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="disabledtextinput" placeholder="disabledinput">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="disabled" class="col-sm-2 control-label">select menu disabled in select with fieldset</label>
+		<div class="col-sm-10">
+			<select id="disabledselect" class="control-label">
+				<option>disabled select</option>
+			</select>
+		</div>
+	</div>
+	</fieldset>
+	<div class="form-group has-error">
+		<label for="inputwarning" class="col-sm-2 control-label">
+			Input with error
+		</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control input-lg" id="inputerror">
+			<span class="help-block">What field are you applying for?</span>
+		</div>
+	</div>
+
+	
+</form><br><br>
+
+<button class="btn btn-default btn-lg" type="button">GOOGLE
+<span class="glyphicon glyphicon-search"></span></button>
+<p>
+	close icon example
+	<button type="button" class="close" aria-hidden="true">&times;</button>
+</p>
+
+
+<div class="btn-group dropup">
+	<button class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown"type="button" >Default
+		<span class="caret"></span>
+	</button>
+	<ol class="dropdown-menu">
+		<li><a href="#">dog</a></li>
+		<li><a href="#">pig</a></li>
+		<li><a href="#">cow</a></li>
+		<li class="divider"></li>
+		<li><a href="#">seperated link</a></li>
+	</ol>
+</div>
+<div class="btn-group">
+	<button class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown"type="button" >Primary
+		<span class="caret"></span>
+	</button>
+	<ol class="dropdown-menu">
+		<li><a href="#">google</a></li>
+		<li><a href="#">wikipedia</a></li>
+		<li><a href="#">yahoo</a></li>
+		<li class="divider"></li>
+		<li><a href="#">seperated link</a></li>
+	</ol>
+</div>
+<div class="btn-group">
+	<button class="btn btn-success btn-xs dropdown-toggle" data-toggle="dropdown"type="button" >Success
+		<span class="caret"></span>
+	</button>
+	<ol class="dropdown-menu">
+		<li><a href="#">ph</a></li>
+		<li><a href="#">jtown</a></li>
+		<li><a href="#">kd</a></li>
+		<li class="divider"></li>
+		<li><a href="#">seperated link</a></li>
+	</ol>
+</div>
+
+-->
+<!--
+    <div class="row">
+	<div class="col-md-5" style="background-color: gray;box-shadow:inset 2px 2px 2px #0ff; "><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+	</div>
+    
+	<div class="col-md-7" style="background-color: silver;box-shadow:inset 2px 2px 2px #0ff; "><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+ 	</div>
+
+
+
+
+
+
+-->
+ 	<!--
+ 	<div style="max-width: 1200px; margin: 0 auto;padding: 10px;">
+ 	
+ <div class="container-fluid">
+
+ 	<div style ="max-width:1200px; padding: 10px;
+ 	margin:0 auto;" >
+
+ 	<div class="row" style="margin-top: 10px;">
+      <div></div> 
+
+
+
+ 	<div class="dropdown">
+ 		<button type="button"
+ 	           class="btn btn-default dropdown-toggle"
+ 	           data-toggle="dropdown"> Meats <div class="caret"></div>
+ 	           </button>
+ 	<ul class="dropdown-menu">
+ 	<li class="dropdown-header">meaty</li> 
+ 	<li><a href="">cow meat</a></li>
+ 	<li><a href="">goat meat</a></li>
+ 	<li><a href="">dog meat</a></li>
+ 	<li class="dropdown-header">fruits
+ 	<li><a href="">apple</a></li>
+ 	<li><a href="">watermelon</a></li>
+ 	<li class="disabled"><a href="">Jos</a></li>
+   </ul>
+</div>
+</div>
+-->
+
+<!-- 	
+ 	<div class="row">
+<div class="col-xs-12 col-sm-3">
+	<img src="img/img1.jpg"
+	class="img-responsive img-thumbnail center-block">
+</div>
+	<div class="col-xs-12 col-sm-3">
+	<img src="img/img3.jpg"
+	class="img-responsive img-rounded center-block">
+</div>
+	<div class="col-xs-12 col-sm-3">
+	<img src="img/img1.jpg"
+	class="img-responsive center-block">
+</div>
+	<div class="col-xs-12 col-sm-3 hidden-lg">
+	<img src="img/img2.jpg"
+	class="img-responsive img-circle center-block">
+</div>
+
+<div class="row" style="margin-top: 20px">
+	<div class="col-xs-12">
+		<span style="width: 60px; padding: 20px;background-color: orange"
+		class="visible-md-inline-block">box
+	    </span>
+		<span style="width: 60px; padding: 20px;background-color: orange"
+		class="visible-md-inline-block">box	
+		</span>
+	</div>
+	</div>
+
+-->
+
+
+
+<!--
+
+<div class="row">
+<div class="col-xs-12">
+<h1>Button Style</h1> 
+<a href="#">Anchor tag</a>
+<button>Button tag</button> 
+<input type="submit"
+      value="submit"/>
+  </div>
+      
+<div class="col-xs-12">
+	<h1>The btn class demo</h1>
+	<a href="#"
+       class="btn btn-default">Anchor tag</a>
+       <button class="btn btn-default">Button Tag</button>
+       <input class="btn btn-default"
+       disabled="disabled" 
+              type="submit"
+              value="submit"/>
+    </div>  
+
+<div class="col-xs-12">
+<h1>Contextual classes demo</h1>
+   <a href="#"
+      class="btn btn-default">default</a>
+    <a href="#"
+      class="btn btn-primary">primay</a>
+    <a href="#"
+      class="btn btn-info">info</a>
+    <a href="#"
+      class="btn btn-warning">warning</a>
+    <a href="#"
+      class="btn btn-danger btn-lg">danger</a>  
+    <a href="#"
+      class="btn btn-success"><h1>success</h1></a> 
+    < 
+</div>
+
+<div class="col-xs-12">
+	<h1>Size classes</h1>
+	<a href="#"
+	class="btn btn-default btn-xs">extra small</a>
+	<a href="#"
+    class="btn btn-default btn-sm">small</a>
+    <a href="#"
+    class="btn btn-danger btn-lg">Ohi</a>
+	
+</div>
+<div class="col-xs-12">
+	<h1>Active and Disabled classes</h1>
+	<a href="#"
+     class="btn btn-default active">active</a>
+    <a href="#"
+     class="btn btn-default disabled">disabled</a>
+    <a href="#"
+     class="btn btn-warning disabled">Warning</a>
+    <a href="#"
+    class="btn btn-danger active">danger</a> 
+    <button class="btn btn-danger btn-lg"
+    disabled="disabled">keep OFF</button>
+
+
+
+	
+</div>
+
+
+<div class="row" >
+	<h1>food food food...</h1>
+	<dl class="dl-horizontal">
+		<dt>Indomie</dt>
+		<dd>This is a food for lazy nigerians.his is a food for lazy nigerians his is a food for lazy nigerians</dd>
+		<dt>Pizza</dt>
+		<dd>This the kind of junk for lazy American teen</dd>
+		<dt>Sausage</dt>
+		<dd>Please,what is Sausage to a Nigerian?</dd> 
+	</dl>
+	
+	<ul class="list-unstyled">
+		<li>sausage</li>
+		<li>pizza</li>
+		<li>indomie</li>
+	</ul>
+	<ol class="list-inline">
+		<li>sausage</li>
+		<li>pizza</li>
+		<li>indomie</li>
+	</ol>
+	
+</div>
+
+-->
+
+<!--
+ 	<div class="row"
+ 	  style="margin-top: 20px">
+ 	  <div class="col-xs-6 thumb"><h1>Heading 1</h1><p>Hauris at felis eliquet,faucibus turpis et, egestas massa.<p>ut pharetra arcu erat,vitae pellentesque urna auctor eget.<span class="h3"> Nam tempor ipsum </span>libero,ut loctus nulla ullamcorper sit amet,quisque tempus anque mi,quis gravida urna henderit ut.</p> Aenean et lacus lorem. Morbi varius convallis quam. Aenean ornare eat non libero malesuada facilisis</p>
+ 	 </div>
+ 	 <div class="col-xs-6 thumb"><h2>Heading 2</h2><p class="lead">Hauris at felis eliquet,faucibus turpis et, egestas massa.ut pharetra arcu erat,vitae pellentesque urna auctor eget.</p> <p>Nam tempor ipsum libero,ut loctus nulla ullamcorper sit amet,quisque tempus anque mi,quis gravida urna henderit ut. Aenean et lacus lorem. Morbi varius convallis quam. Aenean ornare eat non libero malesuada facilisis</p>
+ 	 </div>
+ 	  <div class="clearfix"></div>
+ 	 
+ 	 <div class="col-xs-6 thumb"><h3>Heading 3</h3><p>Hauris at felis eliquet,faucibus turpis et, egestas massa.<p>ut pharetra arcu erat,vitae pellentesque urna auctor eget. Nam tempor ipsum libero,ut loctus nulla ullamcorper sit amet,quisque tempus anque mi,quis gravida urna henderit ut. Aenean et lacus lorem. Morbi varius convallis quam.</p> Aenean ornare eat non libero malesuada facilisis</p>
+ 	 </div>
+
+ 	 <div class="col-xs-6 thumb"><h4>Heading 4</h4><p>Hauris at felis eliquet,faucibus turpis et, egestas massa.ut pharetra arcu erat,vitae pellentesque urna auctor eget. Nam tempor ipsum libero,ut loctus nulla ullamcorper sit amet,quisque tempus anque mi,quis gravida urna henderit ut. Aenean et lacus lorem. Morbi varius convallis quam. Aenean ornare eat non libero malesuada facilisis</p>
+ 	 </div>
+ 	 <div class="clearfix"></div>
+
+ 	 <div class="col-xs-6 thumb"><h5>Heading 5</h5><p>Hauris at felis eliquet,faucibus turpis et, egestas massa.ut pharetra arcu erat,vitae pellentesque urna auctor eget. Nam tempor ipsum libero,ut loctus nulla ullamcorper sit amet,quisque tempus anque mi,quis gravida urna henderit ut. Aenean et lacus lorem. Morbi varius convallis quam. Aenean ornare eat non libero malesuada facilisis</p>
+ 	 </div>
+ 	 <div class="col-xs-6 thumb"><h6>Heading 6</h6><p>Hauris at felis eliquet,faucibus turpis et, <span class="h1">egestas</span> massa.ut pharetra arcu erat,vitae pellentesque urna auctor eget. Nam tempor ipsum libero,ut loctus nulla ullamcorper sit amet,quisque tempus anque mi,quis gravida urna henderit ut. Aenean et lacus lorem. Morbi varius convallis quam. Aenean ornare eat non libero malesuada facilisis</p>
+ 	 </div>
+ 	 </div> 	
+
+    <div class="row" 
+         style="margin-top: 20px;">
+          <div class= "col-xs-12 col-md-6 col-md-push-6 col-lg-8 col-lg-push-0 thumb">content</div>
+           <div class= "col-xs-12 col-md-6 col-md-pull-6 col-lg-4 col-lg-pull-0 thumb">sidebar</div>
+          </div>
+      </div>
+
+
+
+ 	<div class="row"
+ 		style="margin-top: 20px;">
+ 	 <div class= "col-xs-offset-2 col-xs-8 col-md-4 col-md-offset-0 thumb">thumbnail</div>
+ 	 <div class= "col-xs-12 col-md-4 thumb">thumbnail</div>
+ 	<div class= "col-xs-offset-2 col-xs-8  col-md-4 col-md-offset-0 thumb">thumbnail</div>
+	
+ </div>
+</div>
+-->
+ <script src="js/jquery-3.2.1.min.js"></script>
+
+ <script src="js/bootstrap.js"></script>
+
+ <script>
+   $("nav li").on("active",function()
+    {$("nav li").removeclass("active");
+    $(this).addclass("active");});
+</script>
 
 </body>
+
 </html>
